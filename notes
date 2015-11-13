@@ -10,3 +10,30 @@
             MessageBox.Show("Latest version is already installed.");
         }
     }
+    
+    
+    [Obsolete("Use xxx instead.", false)]
+    [ServiceContract]
+    [XmlSerializerFormat]
+    public interface IPushApi
+    {
+        [FaultContract(typeof(FaultInformation))]
+        [OperationContract]
+        void XXXX(NotificationItem notification, Token token, bool toast = true);
+
+        [OperationContract]
+        [FaultContract(typeof(FaultInformation))]
+        NotificationItem XXX(string id, Token token);
+
+        [OperationContract]
+        [FaultContract(typeof(FaultInformation))]
+        NotificationActionState XXXXX(string id, Token token);
+
+        [OperationContract]
+        [FaultContract(typeof(FaultInformation))]
+        List<NotificationItem> XXXXXXx(Token token);
+
+        [OperationContract]
+        [FaultContract(typeof(FaultInformation))]
+        void XXXXXXXXX(string id, Token token);
+    }
