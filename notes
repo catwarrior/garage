@@ -1,0 +1,12 @@
+
+    static void SameVersionCheck(Session session,Version preVersion)
+    {
+        if(preVersion == null)
+            return;
+
+        var installingVersion = Version.Parse(session["ProductVersion"]);
+        if (!IsSilent(session) && installingVersion == preVersion)
+        {
+            MessageBox.Show("Latest version is already installed.");
+        }
+    }
