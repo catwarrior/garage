@@ -1,4 +1,6 @@
 
+
+```csharp
     static void SameVersionCheck(Session session,Version preVersion)
     {
         if(preVersion == null)
@@ -10,7 +12,7 @@
             MessageBox.Show("Latest version is already installed.");
         }
     }
-    
+```    
     
     [Obsolete("Use xxx instead.", false)]
     [ServiceContract]
