@@ -1,0 +1,26 @@
+choco install git -y
+choco install googlechrome -y
+choco install 7zip -y
+
+choco install boxstarter -y
+
+# sys enhancement
+choco install sudo -y
+choco install everything -y
+choco install git-credential-manager-for-windows -y
+
+choco install f.lux -y
+
+choco install ilspy -y
+
+choco install mono -y
+
+choco install linqpad -y
+
+# choco install jenkins -y
+
+choco install nuget.commandline -y
+
+# choco install visualfsharptools -y
+
+choco install visualstudio2015community -y
