@@ -10,3 +10,17 @@ WORKDIR /srv
 USER root
 ENTRYPOINT ["/composer.phar"]
 ```
+
+Usage:
+``` bash
+docker run -i -t -v ~/xxx/xxx:/srv composer create-project symfony/framework-standard-edition AcmeDemo
+```
+or add alias first
+``` bash
+alias composer='docker run -i -t -v $PWD:/srv composer'
+```
+and then
+
+``` bash
+composer create-project symfony/framework-standard-edition AcmeDemo
+```
