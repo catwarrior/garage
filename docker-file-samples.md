@@ -1,4 +1,4 @@
-## composer
+## dockerize `composer`
 ``` Dockerfile
 FROM ubuntu:14.04
 RUN apt-get install -qqy php5-cli php5-json curl
