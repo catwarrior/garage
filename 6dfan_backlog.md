@@ -1,4 +1,4 @@
-## User point 
+## Feature - User points 
 **[Elgg 1.8-1.12 & 2.X: Elggx Userpoints](https://elgg.org/plugins/813379)**
 
 [Elggx Userpoints](https://elgg.org/plugins/385111)
