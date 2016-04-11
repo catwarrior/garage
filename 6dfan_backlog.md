@@ -10,3 +10,11 @@
 ## Feature event manager.
 
 [ColdTrick/event_manager](https://github.com/ColdTrick/event_manager)
+
+
+
+
+
+## Nonfeatures - tools
+
+[mannually create apikey](https://github.com/catwarrior/apiadmin)
