@@ -6,3 +6,7 @@
 [Discount Vouchers Plugin](https://elgg.org/plugins/1197146)
 
 [gain points, ranks and funds for certain actions](https://elgg.org/plugins/384905)
+
+## Feature event manager.
+
+[ColdTrick/event_manager](https://github.com/ColdTrick/event_manager)
