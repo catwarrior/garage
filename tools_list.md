@@ -9,7 +9,7 @@
 `baiduyun`
 `chrome`
 `office`
-`chocolatey`
+`chocolatey` - @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 `boxstarter`
 
 ## Dev
@@ -26,4 +26,6 @@
 `Orca` - msi editor
 `Windows Installer Clean Up`
 `CloudBerryExplorer` - azure blog explorer
+
+
 
