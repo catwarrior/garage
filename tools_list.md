@@ -1,23 +1,28 @@
-DockerToolbox - docker on windows/mac osx
-CloudBerryExplorer - azure blog explorer
-Zeal - all API documents
-
-Filezilla - ftp
-Fiddler2
-Flux - adjust screen color temp
-Skype
-baiduyun
-chrome
-
-Git
-Atom
-VisualStudio2015
-TortoiseGit
-docker/ docker tool box
 
 
-## special domain
-SQLQueryStress
-Orca - msi editor
+## Common
+`Filezilla` - ftp
+`Fiddler2`
+`Flux` - adjust screen color temp
+`Skype`
+`baiduyun`
+`chrome`
+`office`
+`chocolatey`
+`boxstarter`
+
+## Dev
+`Git`
+`Atom`
+`VisualStudio2015`
+`Linqpad`
+`TortoiseGit`
+`Docker` / `DockerToolbox` - docker on windows/mac osx
+`Zeal` - all API documents
+
+## Special domain
+`SQLQueryStress`
+`Orca` - msi editor
 `Windows Installer Clean Up`
+`CloudBerryExplorer` - azure blog explorer
 
