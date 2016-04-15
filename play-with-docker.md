@@ -22,6 +22,6 @@ CMD ["-h"]
 
 The using command
 
-user:project$ docker run --rm \
-              -v $(pwd):/project \
+user:project$ docker run --rm \ 
+              -v $(pwd):/project \ 
               my_mvn clean install
