@@ -15,7 +15,7 @@ public class ErrorHanding
             catch (Exception ex)
             {
                 LogException(ex, log);
-                Try(catchAction, log);
+                Try(() => catchAction(ex), log);
                 return false;
             }
             finally
@@ -38,7 +38,7 @@ public class ErrorHanding
     .Try(tryAction: () =>
     {
          // put the try block here
-    }, catchAction: () =>
+    }, catchAction: (ex) =>
     {
         // the catch
     }, finallyAction: () =>
