@@ -1,17 +1,5 @@
-``` csharp
-   ErrorHanding
-    .Try(tryAction: () =>
-    {
-         // put the try block here
-    }, catchAction: () =>
-    {
-        // the catch
-    }, finallyAction: () =>
-    {
-        // the finally
-    }, log: log);
-```
-
+# centrolize exception handling. 
+## The class 
 ``` csharp
 public class ErrorHanding
     {
@@ -43,3 +31,19 @@ public class ErrorHanding
         }
     }
 ```
+
+## Usage
+``` csharp
+   ErrorHanding
+    .Try(tryAction: () =>
+    {
+         // put the try block here
+    }, catchAction: () =>
+    {
+        // the catch
+    }, finallyAction: () =>
+    {
+        // the finally
+    }, log: log);
+```
+
