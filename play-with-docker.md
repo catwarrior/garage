@@ -28,3 +28,6 @@ user:project$ docker run --rm \
 
 ## Dockhubs
 https://hub.tenxcloud.com
+
+## Docker tips
+http://www.cnblogs.com/elnino/p/3899136.html
