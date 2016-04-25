@@ -31,3 +31,4 @@ https://hub.tenxcloud.com
 
 ## Docker tips
 http://www.cnblogs.com/elnino/p/3899136.html
+http://www.blogjava.net/yongboy/archive/2013/12/29/408173.html
